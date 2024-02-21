@@ -1,0 +1,16 @@
+@import url(style/header.css);
+
+:root{
+    --cor-de-fundo: #242525;
+    --cor-do-rodape: #000000;
+    --branca: #ffffff;
+    --azul: blue;
+}
+
+body{
+    background-color: var(--cor-de-fundo);
+}
+
+.primeiro-bloco{
+background-color: var(--azul);
+}

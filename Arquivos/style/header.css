@@ -1,0 +1,25 @@
+.cabeçario-menu-app {
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+}
+
+.cabeçario{
+    background-color: var(--branca);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+}
+
+.container img {
+    max-width: 100%;
+    height: auto;
+    object-fit: cover;
+    height: 46px;
+    padding: 1em;
+}
