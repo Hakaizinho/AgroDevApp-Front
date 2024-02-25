@@ -5,53 +5,67 @@
         <meta name="viewbord" content="width=divice-width, initial-scale=1.0">
         <title>AgroDev</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Hanalei+Fill&display=swap" rel="stylesheet">
     </head>
 
     <body>
-        <section class="primeiro-bloco">
-            <header class="cabeçario">
-                <div class="container">
-                    <span class="cabeçario-menu-app"></span>
-                    <img src="style/img/Logo.svg" alt="Logo-agrodev">
-                    <h1>AgroDev</h1>
-                </div>
-    
-                <div class="container">
-                    <a href="#"> <img src="style/img/calculadora.png" alt="calculdora"></a>
-                    <a href="#"> <img src="style/img/definicoes.png" alt="suporte"></a>
-                    <a href="#"> <img src="style/img/imagem-do-usuario-com-fundo-preto.png  " alt="usuario"></a>
-                </div>
-                
-                
-            </header>
-    
-            <section class="baner">
-                <h1>BEM VINDO A AGRODEV,</h1>
-                <p> acreditamos no poder da tecnologia e da sustentabilidade para impulsionar o crescimento no setor agrícola.</p>
-    
-            </section>
-        </section>
-        
-
-        <section class="calculadora">
-            <h1>Calculadora</h1>
-            <div>
-                <p>CTC</p>
-                <input type="number">
-
-                <p>V%</p>
-                <input type="number">
-
-                <p>PRNF</p>
-                <input type="number">
-
-                <p>Cultura</p>
-                <input type="string">
-            </div> 
-        </section>
-
-        <section>
+        <div class="navbar">
+            <div class="logo-text">
+                <img src="style/img/Logo.svg" alt="AGRODEV" style="height:50px;">
+                <p>AGRODEV</p>
+            </div>
             
-        </section>
+            <div class="button-cabecalho">
+                <button>CALCULE</button>
+                <button>SUPORTE</button>
+                <button>ENTRA</button>
+            </div>
+        </div>
+        <div class="bloco-img">
+            <div class="banner">
+                
+            </div>
+        </div>
+        
+        <div class="calculator">
+            <h1>Calcular</h1>
+            
+            <label for="ctc">CTC</label>
+            <input id="ctc" type="number" placeholder="CTC">
+
+            <label for="v%">V%</label>
+            <input id="v%" type="number" placeholder="V%">
+
+            <label for="prnt">PRNT</label>
+            <input id="prnt" type="number" placeholder="PRNT">
+
+            <label for="cultura">CULTURA</label>
+            <select id="cultura">
+                <option value="milho">Arroz</option>
+                <option value="milho">Feijao</option>
+                <option value="milho">Milho</option>
+                <option value="milho">Soja</option>
+            </select>
+
+            <div class="resposta-calculo">
+                <p>Aconselhamos 1,5t/ha para milho. Confie na Agrodev para maximizar sua colheita com eficiência.</p>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="social-icons">
+                <a href="#"><img src="style/img/facebook.png" alt="face"></a>
+                <a href="#"><img src="style/img/instagram.png" alt="inst"></a>
+                <a href="#"><img src="style/img/linkedin.png" alt="linkedin"></a>
+            </div>
+            <div class="footer-marca">
+                <p>® 2024 AgroDev </p>
+            </div>
+        </div>
+        
+        
+        
     </body>
 </html>
